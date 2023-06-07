@@ -38,7 +38,6 @@ main {
 
 .first-content {
   padding: 1.5rem;
-  width: 100%;
   max-width: 300px;
   border-radius: 1rem;
   background: linear-gradient(
@@ -56,7 +55,8 @@ main {
 }
 
 .first-content h2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  font-size: 1.7rem;
 }
 
 .first-content p {
@@ -70,6 +70,7 @@ main {
 }
 
 .flex-buttons button {
+  width: 100%;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 999px;
@@ -99,7 +100,6 @@ main {
   color: white;
   background-color: var(--Orange);
   text-transform: uppercase;
-  font-size: 12px;
   letter-spacing: 0.05rem;
 }
 
@@ -114,7 +114,6 @@ main {
 
 .second-content {
   padding: 1.25rem;
-  width: 100%;
   max-width: 340px;
   border-radius: 1rem;
   text-align: center;
@@ -127,14 +126,13 @@ main {
 
 .receipt-icon {
   margin-top: 1.25rem;
-  width: 100%;
   max-width: 140px;
 }
 
 .rating-box {
   margin: auto;
   margin-top: 1.5rem;
-  max-width: 180px;
+  width: 180px;
 }
 
 .rating-box p {
@@ -154,7 +152,7 @@ main {
   margin-bottom: 1rem;
 }
 
-/*Utility Classes*/
+/*Utility Class*/
 
 .hidden {
   display: none;
