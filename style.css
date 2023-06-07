@@ -154,6 +154,18 @@ main {
   margin-bottom: 1rem;
 }
 
+/*Utility Classes*/
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  font-weight: 700 !important;
+  color: white !important;
+  background-color: var(--Orange) !important;
+}
+
 /*Media Queries*/
 
 @media (min-width: 600px) {
@@ -170,14 +182,4 @@ main {
   .second-content {
     max-width: 320px;
   }
-}
-
-.hidden {
-  display: none;
-}
-
-.selected {
-  font-weight: 700 !important;
-  color: white !important;
-  background-color: var(--Orange) !important;
 }
