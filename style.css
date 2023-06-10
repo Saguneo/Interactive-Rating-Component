@@ -87,11 +87,13 @@ main {
 }
 
 .radio-input:hover + .radio-label {
+  font-weight: 700;  
   background-color: var(--Light-Grey);
   color: white;
 }
 
 .radio-input:checked + .radio-label {
+  font-weight: 700;
   background-color: var(--Orange);
   color: white;
 }
