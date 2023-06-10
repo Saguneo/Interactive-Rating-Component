@@ -81,6 +81,7 @@ main {
   width: 2.7rem;
   height: 2.7rem;
   border-radius: 999px;
+  transition: all 0.2s;
   background-color: var(--Medium-Grey);
   color: var(--Light-Grey);
 }
@@ -108,9 +109,10 @@ main {
   border-radius: 999px;
   border: none;
   color: white;
-  background-color: var(--Orange);
   text-transform: uppercase;
   letter-spacing: 0.05rem;
+  transition: all 0.2s;
+  background-color: var(--Orange);  
 }
 
 .submit-button:hover {
